@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59" started-at="2020-08-29T11:51:28 EDT" finished-at="2020-08-29T11:51:28 EDT">
+  <suite name="Default suite" duration-ms="44" started-at="2020-08-29T12:06:24 EDT" finished-at="2020-08-29T12:06:24 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59" started-at="2020-08-29T11:51:28 EDT" finished-at="2020-08-29T11:51:28 EDT">
-      <class name="com.syntax.class01.TestNGtest">
-        <test-method status="PASS" signature="hello()[pri:0, instance:com.syntax.class01.TestNGtest@369f73a2]" name="hello" duration-ms="11" started-at="2020-08-29T11:51:28 EDT" finished-at="2020-08-29T11:51:28 EDT">
+    <test name="Default test" duration-ms="44" started-at="2020-08-29T12:06:24 EDT" finished-at="2020-08-29T12:06:24 EDT">
+      <class name="com.syntax.class01_HWCW.Task">
+        <test-method status="PASS" signature="taskOne()[pri:0, instance:com.syntax.class01_HWCW.Task@369f73a2]" name="taskOne" duration-ms="7" started-at="2020-08-29T12:06:24 EDT" finished-at="2020-08-29T12:06:24 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hello -->
-      </class> <!-- com.syntax.class01.TestNGtest -->
+        </test-method> <!-- taskOne -->
+        <test-method status="PASS" signature="taskThree()[pri:0, instance:com.syntax.class01_HWCW.Task@369f73a2]" name="taskThree" duration-ms="1" started-at="2020-08-29T12:06:24 EDT" finished-at="2020-08-29T12:06:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskThree -->
+        <test-method status="PASS" signature="taskTwo()[pri:0, instance:com.syntax.class01_HWCW.Task@369f73a2]" name="taskTwo" duration-ms="0" started-at="2020-08-29T12:06:24 EDT" finished-at="2020-08-29T12:06:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taskTwo -->
+      </class> <!-- com.syntax.class01_HWCW.Task -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
