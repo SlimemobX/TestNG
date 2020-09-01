@@ -2,6 +2,7 @@ package com.syntax.class01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,7 +21,7 @@ public class HrmsTestCases {
 	}
 
 	
-	@Test
+	@Test(priority = 2)
 	public void validLogin() {
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("Hum@nhrm123");
@@ -34,7 +35,7 @@ public class HrmsTestCases {
 		}
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void titleValidation() {
 		String expectedTitle = "Human Management System";
 		String actualTitle = driver.getTitle();
@@ -43,6 +44,20 @@ public class HrmsTestCases {
 			System.out.println("Title matched. Test Pass");
 		}else {
 			System.out.println("Title DIDN'T match. Test fail");
+		}
+	}
+	
+	@Test(priority = 3)
+	public void invalidLogin() {
+		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+		driver.findElement(By.cssSelector("input#btnLogin")).click();
+		WebElement message = driver.findElement(By.id("spanMessage"));
+		String expectedMsg = "Password cannot be empty";
+		String actualMsg = message.getText();
+		if (actualMsg.equals(expectedMsg)) {
+			System.out.println("Test PASS");
+		} else {
+			System.out.println("Test FAIL");
 		}
 	}
 	
