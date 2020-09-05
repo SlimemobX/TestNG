@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9514" started-at="2020-08-29T15:16:19 EDT" finished-at="2020-08-29T15:16:29 EDT">
+  <suite name="Default suite" duration-ms="22067" started-at="2020-09-01T20:17:49 EDT" finished-at="2020-09-01T20:18:11 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9514" started-at="2020-08-29T15:16:19 EDT" finished-at="2020-08-29T15:16:29 EDT">
-      <class name="com.syntax.class01_HWCW.Task3">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class01_HWCW.Task3@551aa95a]" name="openBrowser" is-config="true" duration-ms="4229" started-at="2020-08-29T15:16:19 EDT" finished-at="2020-08-29T15:16:23 EDT">
+    <test name="Default test" duration-ms="22067" started-at="2020-09-01T20:17:49 EDT" finished-at="2020-09-01T20:18:11 EDT">
+      <class name="com.syntax.class01.HrmsTestCases">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="openBrowser" is-config="true" duration-ms="6471" started-at="2020-09-01T20:17:49 EDT" finished-at="2020-09-01T20:17:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.syntax.class01_HWCW.Task3@551aa95a]" name="validLogin" duration-ms="5168" started-at="2020-08-29T15:16:23 EDT" finished-at="2020-08-29T15:16:29 EDT">
+        <test-method status="PASS" signature="titleValidation()[pri:1, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="titleValidation" duration-ms="18" started-at="2020-09-01T20:17:55 EDT" finished-at="2020-09-01T20:17:55 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class01_HWCW.Task3@551aa95a]" name="closeBrowser" is-config="true" duration-ms="85" started-at="2020-08-29T15:16:29 EDT" finished-at="2020-08-29T15:16:29 EDT">
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="closeBrowser" is-config="true" duration-ms="93" started-at="2020-09-01T20:17:55 EDT" finished-at="2020-09-01T20:17:56 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.syntax.class01_HWCW.Task3 -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="openBrowser" is-config="true" duration-ms="4188" started-at="2020-09-01T20:17:56 EDT" finished-at="2020-09-01T20:18:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validLogin()[pri:2, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="validLogin" duration-ms="5081" started-at="2020-09-01T20:18:00 EDT" finished-at="2020-09-01T20:18:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="closeBrowser" is-config="true" duration-ms="85" started-at="2020-09-01T20:18:05 EDT" finished-at="2020-09-01T20:18:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="openBrowser" is-config="true" duration-ms="5773" started-at="2020-09-01T20:18:05 EDT" finished-at="2020-09-01T20:18:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalidLogin()[pri:3, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="invalidLogin" duration-ms="175" started-at="2020-09-01T20:18:11 EDT" finished-at="2020-09-01T20:18:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@551aa95a]" name="closeBrowser" is-config="true" duration-ms="92" started-at="2020-09-01T20:18:11 EDT" finished-at="2020-09-01T20:18:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.syntax.class01.HrmsTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
