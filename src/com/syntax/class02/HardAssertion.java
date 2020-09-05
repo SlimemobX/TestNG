@@ -28,7 +28,7 @@ public class HardAssertion {
 
 	@Test(groups="regression")
 	public void titleValidation() {
-		String expectedTitle = "Human Management Systems";
+		String expectedTitle = "Human Management System";
 		String actualTitle = driver.getTitle();// "Human Management System"
 		Assert.assertEquals(actualTitle, expectedTitle);
 		System.out.println("  -- Code after assertion ---");
@@ -43,7 +43,7 @@ public class HardAssertion {
 	
 	@Test(groups="regression")
 	public void loginFormText() {
-		String expectedText="LOGIN Panels";
+		String expectedText="LOGIN Panel";
 		WebElement loginForm=driver.findElement(By.id("logInPanelHeading"));
 		Assert.assertEquals(loginForm.getText(), expectedText, "Text on the Login panel is not matched");
 	}

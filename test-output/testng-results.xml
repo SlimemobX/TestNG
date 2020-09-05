@@ -2,99 +2,53 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48131" started-at="2020-09-05T11:03:08 EDT" finished-at="2020-09-05T11:03:56 EDT">
+  <suite name="Default suite" duration-ms="13646" started-at="2020-09-05T11:36:56 EDT" finished-at="2020-09-05T11:37:10 EDT">
     <groups>
+      <group name="regression">
+        <method signature="HardAssertion.loginFormText()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="loginFormText" class="com.syntax.class02.HardAssertion"/>
+        <method signature="HardAssertion.logoValidation()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="logoValidation" class="com.syntax.class02.HardAssertion"/>
+        <method signature="HardAssertion.titleValidation()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="titleValidation" class="com.syntax.class02.HardAssertion"/>
+      </group> <!-- regression -->
     </groups>
-    <test name="Default test" duration-ms="48131" started-at="2020-09-05T11:03:08 EDT" finished-at="2020-09-05T11:03:56 EDT">
-      <class name="com.syntax.class03.DataProvider">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="openBrowser" is-config="true" duration-ms="4511" started-at="2020-09-05T11:03:08 EDT" finished-at="2020-09-05T11:03:12 EDT">
+    <test name="Default test" duration-ms="13646" started-at="2020-09-05T11:36:56 EDT" finished-at="2020-09-05T11:37:10 EDT">
+      <class name="com.syntax.class02.HardAssertion">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="openBrowser" is-config="true" duration-ms="4658" started-at="2020-09-05T11:36:56 EDT" finished-at="2020-09-05T11:37:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="multipleLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="multipleLogin" duration-ms="12050" started-at="2020-09-05T11:03:12 EDT" data-provider="getData" finished-at="2020-09-05T11:03:24 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hum@nhrm123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="loginFormText()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="loginFormText" duration-ms="55" started-at="2020-09-05T11:37:01 EDT" finished-at="2020-09-05T11:37:01 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="closeBrowser" is-config="true" duration-ms="95" started-at="2020-09-05T11:03:24 EDT" finished-at="2020-09-05T11:03:25 EDT">
+        </test-method> <!-- loginFormText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2020-09-05T11:37:01 EDT" finished-at="2020-09-05T11:37:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="openBrowser" is-config="true" duration-ms="4850" started-at="2020-09-05T11:03:25 EDT" finished-at="2020-09-05T11:03:29 EDT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="openBrowser" is-config="true" duration-ms="4202" started-at="2020-09-05T11:37:01 EDT" finished-at="2020-09-05T11:37:05 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="multipleLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="multipleLogin" duration-ms="9749" started-at="2020-09-05T11:03:29 EDT" data-provider="getData" finished-at="2020-09-05T11:03:39 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JohnTest]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Syntax123!]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[John]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="logoValidation()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="logoValidation" duration-ms="72" started-at="2020-09-05T11:37:05 EDT" finished-at="2020-09-05T11:37:05 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="closeBrowser" is-config="true" duration-ms="92" started-at="2020-09-05T11:03:39 EDT" finished-at="2020-09-05T11:03:39 EDT">
+        </test-method> <!-- logoValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="closeBrowser" is-config="true" duration-ms="86" started-at="2020-09-05T11:37:05 EDT" finished-at="2020-09-05T11:37:05 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="openBrowser" is-config="true" duration-ms="5374" started-at="2020-09-05T11:03:39 EDT" finished-at="2020-09-05T11:03:45 EDT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="openBrowser" is-config="true" duration-ms="4348" started-at="2020-09-05T11:37:05 EDT" finished-at="2020-09-05T11:37:10 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="multipleLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="multipleLogin" duration-ms="11281" started-at="2020-09-05T11:03:45 EDT" data-provider="getData" finished-at="2020-09-05T11:03:56 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[KokaL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kokaytvyn$12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Koka]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="titleValidation()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="titleValidation" duration-ms="11" started-at="2020-09-05T11:37:10 EDT" finished-at="2020-09-05T11:37:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.DataProvider@3d99d22e]" name="closeBrowser" is-config="true" duration-ms="91" started-at="2020-09-05T11:03:56 EDT" finished-at="2020-09-05T11:03:56 EDT">
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="closeBrowser" is-config="true" duration-ms="90" started-at="2020-09-05T11:37:10 EDT" finished-at="2020-09-05T11:37:10 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.syntax.class03.DataProvider -->
+      </class> <!-- com.syntax.class02.HardAssertion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

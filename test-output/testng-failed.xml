@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.syntax.class01_HWCW.Task3">
+      <class name="com.syntax.class02.HardAssertion">
         <methods>
           <include name="openBrowser"/>
+          <include name="titleValidation"/>
           <include name="closeBrowser"/>
-          <include name="displayLogo"/>
         </methods>
-      </class> <!-- com.syntax.class01_HWCW.Task3 -->
+      </class> <!-- com.syntax.class02.HardAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
