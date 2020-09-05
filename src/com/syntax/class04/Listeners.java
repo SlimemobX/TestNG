@@ -13,10 +13,12 @@ public class Listeners implements ITestListener{
 	
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("Test Passed " + result.getName());
+		System.out.println("Here will be adding code that takes screenshot for any passed test cases............");
 	}
 	
 	public void onTestFailed(ITestResult result) {
 		System.out.println("Test Failed " + result.getName());
+		System.out.println("Here will be adding code that takes screenshot for any failed test cases............");
 	}
 	
 	// invoked when we start <test> based on xml file

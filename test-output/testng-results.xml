@@ -1,54 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13646" started-at="2020-09-05T11:36:56 EDT" finished-at="2020-09-05T11:37:10 EDT">
+  <suite name="Smoke Suite" duration-ms="8557" started-at="2020-09-05T13:35:18 EDT" finished-at="2020-09-05T13:35:26 EDT">
     <groups>
-      <group name="regression">
-        <method signature="HardAssertion.loginFormText()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="loginFormText" class="com.syntax.class02.HardAssertion"/>
-        <method signature="HardAssertion.logoValidation()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="logoValidation" class="com.syntax.class02.HardAssertion"/>
-        <method signature="HardAssertion.titleValidation()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="titleValidation" class="com.syntax.class02.HardAssertion"/>
-      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupExamples.validLogin()[pri:0, instance:com.syntax.class03.GroupExamples@9660f4e]" name="validLogin" class="com.syntax.class03.GroupExamples"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="13646" started-at="2020-09-05T11:36:56 EDT" finished-at="2020-09-05T11:37:10 EDT">
-      <class name="com.syntax.class02.HardAssertion">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="openBrowser" is-config="true" duration-ms="4658" started-at="2020-09-05T11:36:56 EDT" finished-at="2020-09-05T11:37:01 EDT">
+    <test name="Smoke Test" duration-ms="8557" started-at="2020-09-05T13:35:18 EDT" finished-at="2020-09-05T13:35:26 EDT">
+      <class name="com.syntax.class03.GroupExamples">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class03.GroupExamples@9660f4e]" name="openBrowser" is-config="true" duration-ms="4994" started-at="2020-09-05T13:35:18 EDT" finished-at="2020-09-05T13:35:23 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginFormText()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="loginFormText" duration-ms="55" started-at="2020-09-05T11:37:01 EDT" finished-at="2020-09-05T11:37:01 EDT">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.syntax.class03.GroupExamples@9660f4e]" name="validLogin" duration-ms="3436" started-at="2020-09-05T13:35:23 EDT" finished-at="2020-09-05T13:35:26 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginFormText -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="closeBrowser" is-config="true" duration-ms="89" started-at="2020-09-05T11:37:01 EDT" finished-at="2020-09-05T11:37:01 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="openBrowser" is-config="true" duration-ms="4202" started-at="2020-09-05T11:37:01 EDT" finished-at="2020-09-05T11:37:05 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="logoValidation()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="logoValidation" duration-ms="72" started-at="2020-09-05T11:37:05 EDT" finished-at="2020-09-05T11:37:05 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoValidation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="closeBrowser" is-config="true" duration-ms="86" started-at="2020-09-05T11:37:05 EDT" finished-at="2020-09-05T11:37:05 EDT">
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class03.GroupExamples@9660f4e]" name="closeBrowser" is-config="true" duration-ms="90" started-at="2020-09-05T13:35:26 EDT" finished-at="2020-09-05T13:35:26 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="openBrowser" is-config="true" duration-ms="4348" started-at="2020-09-05T11:37:05 EDT" finished-at="2020-09-05T11:37:10 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="titleValidation()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="titleValidation" duration-ms="11" started-at="2020-09-05T11:37:10 EDT" finished-at="2020-09-05T11:37:10 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleValidation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class02.HardAssertion@551aa95a]" name="closeBrowser" is-config="true" duration-ms="90" started-at="2020-09-05T11:37:10 EDT" finished-at="2020-09-05T11:37:10 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.syntax.class02.HardAssertion -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.syntax.class03.GroupExamples -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke Suite -->
 </testng-results>
